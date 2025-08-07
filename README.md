@@ -46,12 +46,19 @@ Diseño modular: La separación entre la lógica principal en src/ y la interfaz
 
 - Proyecto ML Customer Churn/
 ├── .venv/
+
 ├── .zen/
+
 ├── data/
+
 ├── materializer/
+
 ├── pipelines/
+
 ├── src/
+
 ├── steps/
+
 └── wandb/
 
 ## Enlaces
