@@ -44,16 +44,15 @@ Diseño modular: La separación entre la lógica principal en src/ y la interfaz
 
 ## Estructura del Proyecto
 
-- Proyecto_Final_CoderHouse/
-- ├── data/
-- │   └── raw_data/
-- │         └── Credit_card_churn.xlsx     # Archivo Excel del proyecto
-- ├── images/                              # Imagenes del Readme.
-- ├── plots/                               # Directorio con gráficos hechos en plotly.
-- ├── Proyecto_Final_Classification_Sergio_Rivera.ipynb                           # Jupyter Notebook con EDA y Modelo de Machine Learning.
-- ├── .gitignore                           # configuracion de archivos ignorados.
-- ├── README.md                            # Este archivo README.
-- └── ...
+- Proyecto ML Customer Churn/
+├── .venv/
+├── .zen/
+├── data/
+├── materializer/
+├── pipelines/
+├── src/
+├── steps/
+└── wandb/
 
 ## Enlaces
 
@@ -66,7 +65,6 @@ Deploy:
 |  Librería/herramienta    |   Logo                                    | Descripción                                                                                                           |
 |----------------------|-----------------------------------------|----------------------------------------------|
 | **Pandas**   |      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="100">   | Librería de Python para manipulación y análisis de datos.|
-| **PyTorch** | <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" width="100"> | Framework de aprendizaje profundo de código abierto que proporciona un apoyo flexible y potente para el desarrollo de modelos de aprendizaje automático. |
 | **Matplotlib**|<img src="https://matplotlib.org/_static/logo_light.svg" width="100">| Librería usada para la generación de gráficos en dos dimensiones.|
 |**Seaborn**|<img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" width="100"> | Librería de Python creada sobre matplotlib, usada para crear gráficos estadísticos.|
 | **Jupyter**|<img src="https://jupyter.org/assets/homepage/main-logo.svg" width="65">| Software gratuito, estándares abiertos y servicios web para informática interactiva en todos los lenguajes de programación.|
