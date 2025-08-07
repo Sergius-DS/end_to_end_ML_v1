@@ -1,0 +1,21 @@
+# Core data manipulation
+pandas
+numpy
+
+# Machine Learning Libraries
+scikit-learn
+xgboost==3.0.0
+imbalanced-learn # For SMOTE
+
+# Plotting
+matplotlib
+
+# Logging (built-in, no explicit requirement)
+# logging
+
+# Abstract Base Classes (built-in, no explicit requirement)
+# abc
+
+# Typing (built-in, no explicit requirement for basic types, but 'typing-extensions' for Annotated)
+# typing
+# typing-extensions # If using Annotated from typing_extensions (likely with ZenML)

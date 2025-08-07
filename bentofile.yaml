@@ -1,0 +1,21 @@
+service: "src/customer_churn_prediction.py:CustomerChurnPrediction"
+labels:
+  owner: machine-learning-team
+  project: customer-churn
+models:
+  - "xgboost_churn:latest"
+include:
+- "*.py"
+- "src/"
+- "pipelines/"
+- "steps/"
+python:
+  # THE DEFINITIVE FIX: Explicitly disable the package locking feature.
+  lock_packages: false
+  packages:
+    - scikit-learn==1.6.1
+    - pandas==2.3.1
+    - numpy==2.3.2
+    - xgboost==3.0.0
+    - imbalanced-learn==0.13.0
+    - bentoml>=1.2.0
