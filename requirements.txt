@@ -10,6 +10,9 @@ imbalanced-learn # For SMOTE
 # Plotting
 matplotlib
 
+# ZenML Integrations
+zenml[server,wandb,bentoml]
+
 # Logging (built-in, no explicit requirement)
 # logging
 
